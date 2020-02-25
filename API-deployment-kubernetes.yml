@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: citizendetailAPI-deployment
+  labels:
+    app: citizendetailAPI
+    role: rolling-update 
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: citizendetailAPI
+  template:
+    metadata:
+      labels:
+        app: citizendetailAPI
+    spec:
+      containers:
+      - name: vinodta123
+        image: citizendetailAPI:first
+        imagePullPolicy: "Always"
+        ports:
+        - containerPort: 9090
+  strategy:
+      type: RollingUpdate

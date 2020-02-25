@@ -90,27 +90,27 @@ public class CitizenDetailsServiceImpl implements CitizenDetailsService{
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Vinod", "Sharma", "30-04-1980", "NA", "No photo", 
 				"Male", "5011", "Active","Single", "Vinod@yahoo.com", "09877768851","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Tanvi", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Tanvi@yahoo.com", "09877768852","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "121", "Active","Single", "Tanvi@yahoo.com", "09877768852","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Aayushi", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Aayushi@yahoo.com", "09877768853","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "123", "Active","Single", "Aayushi@yahoo.com", "09877768853","", 40, new CitizenAddress("123/90,gdfh","Delhi", "Delhi", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Aarav", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Aarav@yahoo.com", "09877768854","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "23452", "Active","Single", "Aarav@yahoo.com", "09877768854","", 40, new CitizenAddress("123/90,etert","Delhi", "Delhi", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Dinesh", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Dinesh@yahoo.com", "09877768855","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "4534", "Active","Single", "Dinesh@yahoo.com", "09877768855","", 40, new CitizenAddress("123/90,springfiled","Delhi", "Delhi", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Varsha", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Varsha@yahoo.com", "09877768856","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "433", "Active","Single", "Varsha@yahoo.com", "09877768856","", 40, new CitizenAddress("123/90,springfiled","Delhi", "Delhi", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Dhruv", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Dhruv@yahoo.com", "09877768857","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "776", "Active","Single", "Dhruv@yahoo.com", "09877768857","", 40, new CitizenAddress("223,rtetr","Noida", "UP", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Mohan", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Mohan@yahoo.com", "09877768858","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "345", "Active","Single", "Mohan@yahoo.com", "09877768858","", 40, new CitizenAddress("4559,dfsf","Noida", "UP", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Bhagwati", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Bhagwati@yahoo.com", "09877768859","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "4535", "Active","Single", "Bhagwati@yahoo.com", "09877768859","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Anita", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Anita@yahoo.com", "09877768860","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "34534", "Active","Single", "Anita@yahoo.com", "09877768860","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Anitauii", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Anitauii@yahoo.com", "09877768862","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "354", "Active","Single", "Anitauii@yahoo.com", "09877768862","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
 		citizenDetailsList.add(new CitizenDetails(counter.incrementAndGet(), "Raj", "Sharma", "30-04-1980", "NA", "No photo", 
-				"Male", "5011", "Active","Single", "Raj@yahoo.com", "09877768863","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
+				"Male", "453", "Active","Single", "Raj@yahoo.com", "09877768863","", 40, new CitizenAddress("123/90,springfiled","Faridabd", "Haryan", "India", "40")));
 		
 		return citizenDetailsList;
 	}

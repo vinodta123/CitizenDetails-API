@@ -1,11 +1,8 @@
 com\digitalworksolutions\service\CitizenDetailsServiceImpl.class
-com\digitalworksolutions\configuration\ApplicationInitializer.class
 com\digitalworksolutions\model\CitizenAddress.class
 com\digitalworksolutions\model\CitizenRequest.class
 com\digitalworksolutions\service\CitizenDetailsService.class
-com\digitalworksolutions\configuration\AuthenticationEntryPoint.class
 com\digitalworksolutions\model\CitizenDetails.class
 com\digitalworksolutions\configuration\SpringBootConfig.class
 com\digitalworksolutions\controller\CitizenDetailsController.class
 com\digitalworksolutions\util\CustomErrorType.class
-com\digitalworksolutions\configuration\SpringSecurityConfig.class
