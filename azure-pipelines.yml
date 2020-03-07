@@ -11,35 +11,49 @@ pool:
 
 steps:
 - task: Maven@3
+  displayName: 'Maven Build'
   inputs:
     mavenPomFile: 'pom.xml'
-    mavenOptions: '-Xmx3072m'
+    goals: 'clean package -Dmaven.test.skip=true'
+    publishJUnitResults: false
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
-    jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package'
+    mavenVersionOption: 'Default'
+    mavenAuthenticateFeed: false
+    effectivePomSkip: false
+    sonarQubeRunAnalysis: false
 
 - task: Docker@2
-  displayName: 'Docker Login'
+  displayName: 'Docker Image'
   inputs:
-    containerRegistry: 'vs-dockerhub'
-    command: 'login'
-
-- task: Docker@2
-  displayName: 'Docker Build Image'
-  inputs:
-    containerRegistry: 'vs-dockerhub'
-    repository: 'vinodta123'
+    containerRegistry: 'VSDockerHubConnection'
+    repository: 'vinodta123 / citizendetailapi'
     command: 'build'
     Dockerfile: '**/Dockerfile'
-    tags: 'third'
 
 - task: Docker@2
-  displayName: 'Docker Push Image'
+  displayName: 'DockerHub Login'
   inputs:
-    containerRegistry: 'vs-dockerhub'
-    repository: 'vinodta123'
+    containerRegistry: 'VSDockerHubConnection'
+    command: 'login'
+- task: Docker@2
+  displayName: 'Docker Push DockerHub'
+  inputs:
+    containerRegistry: 'VSDockerHubConnection'
+    repository: 'vinodta123 / citizendetailapi'
     command: 'push'
-    tags: 'third'
+
+- task: CopyFiles@2
+  displayName: 'Copy Files'
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)'
+    Contents: '*.yml'
+    TargetFolder: '$(build.artifactstagingdirectory)'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Build Artifact'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'

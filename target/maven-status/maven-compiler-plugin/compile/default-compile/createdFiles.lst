@@ -2,6 +2,7 @@ com\digitalworksolutions\service\CitizenDetailsServiceImpl.class
 com\digitalworksolutions\model\CitizenAddress.class
 com\digitalworksolutions\model\CitizenRequest.class
 com\digitalworksolutions\service\CitizenDetailsService.class
+com\digitalworksolutions\configuration\SwaggerConfig.class
 com\digitalworksolutions\model\CitizenDetails.class
 com\digitalworksolutions\configuration\SpringBootConfig.class
 com\digitalworksolutions\controller\CitizenDetailsController.class

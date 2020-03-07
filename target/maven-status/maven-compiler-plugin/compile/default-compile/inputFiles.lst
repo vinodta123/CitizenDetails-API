@@ -3,6 +3,7 @@ C:\Dev\workspace\CitizenDetails-API\src\main\java\com\digitalworksolutions\model
 C:\Dev\workspace\CitizenDetails-API\src\main\java\com\digitalworksolutions\controller\CitizenDetailsController.java
 C:\Dev\workspace\CitizenDetails-API\src\main\java\com\digitalworksolutions\model\CitizenRequest.java
 C:\Dev\workspace\CitizenDetails-API\src\main\java\com\digitalworksolutions\model\CitizenDetails.java
+C:\Dev\workspace\CitizenDetails-API\src\main\java\com\digitalworksolutions\configuration\SwaggerConfig.java
 C:\Dev\workspace\CitizenDetails-API\src\main\java\com\digitalworksolutions\service\CitizenDetailsService.java
 C:\Dev\workspace\CitizenDetails-API\src\main\java\com\digitalworksolutions\configuration\SpringBootConfig.java
 C:\Dev\workspace\CitizenDetails-API\src\main\java\com\digitalworksolutions\service\CitizenDetailsServiceImpl.java
